@@ -43,16 +43,13 @@ and the static site bundle will be generated under `site/`.
 PDF generaion is backed by a plugin, so you need to edit `mkdocs.yml` to turn the feature on. Uncomment `with-pdf` config
 ``` yml
 plugins:
-  - search:
-      separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-  - minify:
-      minify_html: true
+...
   # - with-pdf:
   #     # cover_subtitle: 
   #     # cover_logo: 
   #     toc_level: 2
   #     two_columns_level: 3
-  - offline
+...
 ```
 and when you `serve` or `build`, the PDF file will be generated.
 
