@@ -85,11 +85,11 @@ plugins:
       separator: '[\s\-,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - minify:
       minify_html: true
-  - with-pdf:
-      # cover_subtitle: 
-      # cover_logo: 
-      toc_level: 2
-      two_columns_level: 3
+  # - with-pdf:
+  #     # cover_subtitle: 
+  #     # cover_logo: 
+  #     toc_level: 2
+  #     two_columns_level: 3
   - offline
 
 
@@ -139,3 +139,23 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.tilde
+
+nav:
+    - Getting Started: "index.md"
+    - Features:
+      - reference/index.md
+      - Admonitions: reference/admonitions.md
+      - Annotations: reference/annotations.md
+      - Buttons: reference/buttons.md
+      - Code blocks: reference/code-blocks.md
+      - Content tabs: reference/content-tabs.md
+      - Data tables: reference/data-tables.md
+      - Diagrams: reference/diagrams.md
+      - Footnotes: reference/footnotes.md
+      - Formatting: reference/formatting.md
+      - Grids: reference/grids.md
+      - Icons, Emojis: reference/icons-emojis.md
+      - Images: reference/images.md
+      - Lists: reference/lists.md
+      - Math: reference/math.md
+      - Tooltips: reference/tooltips.md
